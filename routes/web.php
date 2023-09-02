@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Rotta per pagina HOME
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
