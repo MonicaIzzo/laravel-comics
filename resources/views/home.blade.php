@@ -2,7 +2,7 @@
 
 
 {{-- Setto il titolo della pagina --}}
-@section('title', 'Home')
+@section('title', 'HOME')
 
 
 {{-- Setto il main della pagina (che cambiera in base alla pagina) --}}

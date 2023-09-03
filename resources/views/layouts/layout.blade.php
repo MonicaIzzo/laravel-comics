@@ -20,6 +20,7 @@
     {{-- Importiamo lo SLIDER --}}
     @include('includes.slider')
 
+    {{-- Contenuto della pagine che varia ad ogni PAGINA --}}
     <main>
         @yield('main_content')
     </main>
