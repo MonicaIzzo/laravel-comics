@@ -26,6 +26,9 @@
         @yield('main_content')
     </main>
 
+    {{-- Importiamo la sez. Services --}}
+    @include('includes.services')
+
     {{-- Importiamo il FOOTER --}}
     @include('includes.footer')
 

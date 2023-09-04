@@ -1,0 +1,22 @@
+#loghi {
+    background-color: #0282f9;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    img {
+            display: block;
+            height: 50px;
+        }
+    .loghi-items {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        color: white;
+        }
+    .loghi-items img {
+        padding: 0 20px;
+    }
+}
