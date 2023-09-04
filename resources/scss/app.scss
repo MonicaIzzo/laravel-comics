@@ -1,12 +1,15 @@
 //@import '~bootstrap/scss/bootstrap';
-@use "reset" as *;;
-@use "font" as *;;
-@use "generics" as *;;
-@use "utilis" as *;;
-@use "vars" as *;;
-@use "style" as *;
-@use "header" as *;;
-@use "main" as *;;
-@use "service" as *;;
-@use "footer" as *;;
+@use "reset" as *;
+@use "vars" as *;
+@use "generics" as *;
+@use "utilis" as *;
+@use "font" as *;
+
+@use "header" as *;
+@use "slider" as *;
+@use "service" as *;
+@use "footer" as *;
+
+@use "comics" as *;
+@use "single-comics" as *;
 

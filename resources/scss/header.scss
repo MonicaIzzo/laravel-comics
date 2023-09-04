@@ -1,6 +1,28 @@
+/********************************************
+    HEADER TOP
+********************************************/
+
+.header-top {
+    color: white;
+    background-color: #0282f9;
+    .content {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .text {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+}
+
+/********************************************
+    HEADER
+********************************************/
+
 header {
-    //height: 100px;
-    margin: 10px auto;
+    height: 142px;
+
 }
 
 nav {
@@ -11,6 +33,7 @@ nav {
 
 .logo {
     width: 80px;
+    padding: 10px 0;
 }
 
 ul {

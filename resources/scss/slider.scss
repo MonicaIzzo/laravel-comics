@@ -1,0 +1,22 @@
+/* style CSS qui*/
+#hero {
+    background-color: #f04997;
+    height: 300px;
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.title-hero {
+    color: white;
+}
+.section {
+    color: white;
+    padding: 10px 20px;
+    background-color: #0282f9;
+    width: 200px;
+    font-weight: 900;
+    position: absolute;
+    top: 280px
+}
