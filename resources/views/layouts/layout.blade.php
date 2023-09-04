@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ env('APP_NAME') }} | @yield('title')</title>
-    <link rel="shortcut icon" href="{{ Vite::asset('resources/img/faicon.ico') }}" />
+    <link rel="icon" href="{{ Vite::asset('resources/img/faicon.ico') }}" />
+
 
     <!-- Styles -->
     {{-- Importiamo gli asset --}}
@@ -20,7 +21,7 @@
     {{-- Importiamo lo SLIDER --}}
     @include('includes.slider')
 
-    {{-- Contenuto della pagine che varia ad ogni PAGINA --}}
+    {{-- Contenuto del MAIN che varia ad ogni PAGINA --}}
     <main>
         @yield('main_content')
     </main>
