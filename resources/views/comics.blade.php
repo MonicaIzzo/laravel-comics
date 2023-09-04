@@ -83,7 +83,7 @@
                     </div>
                 </li>
             </ul>
-            <div class="footer">
+            <div class="load">
                 <a class="load_more">LOAD MORE</a>
             </div>
         </div>

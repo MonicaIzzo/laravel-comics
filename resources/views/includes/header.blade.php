@@ -1,5 +1,5 @@
 <header>
-    <div class="header-top container">
+    <div class="header-top">
         <div class="content">
             <div class="text">DC POWER VISA</div>
             <div class="text">ADDITIONAL DC SITE</div>
