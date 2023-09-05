@@ -25,7 +25,9 @@ Route::get('/characters', function () {
 
 // Rotta per pagina COMICS
 Route::get('/comics', function () {
-    return view('comics');
+    // Mi importo l'array di array delle current series    
+    $comics = config('comics');
+    return view('comics', compact('comics'));
 })->name('comics');
 
 // Rotta per pagina MOVIES
