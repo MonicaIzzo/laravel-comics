@@ -30,6 +30,14 @@ Route::get('/comics', function () {
     return view('comics', compact('comics'));
 })->name('comics');
 
+
+
+// Rotta per pagina SINGLE COMIC
+Route::get('/single_comic', function () {
+    $comics = config('comics');
+    return view('single_comic', compact('comics'));
+})->name('single_comic');
+
 // Rotta per pagina MOVIES
 Route::get('/movies', function () {
     return view('movies');

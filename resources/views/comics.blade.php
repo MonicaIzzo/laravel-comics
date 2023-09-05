@@ -1,5 +1,4 @@
 @extends('layouts.layout')
-$comics
 
 {{-- Setto il titolo della pagina --}}
 @section('title', 'Home')
@@ -11,77 +10,77 @@ $comics
             <ul class="cards-items">
                 <!-- Statico -->
                 <!--<li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
-                                                <div class="description">
-                                                    <div class="title">Title</div>
-                                                </div>
-                                            </li> -->
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img class="items" src={{ Vite::asset('resources/img/card.jpg') }} alt="">
+                                                    <div class="description">
+                                                        <div class="title">Title</div>
+                                                    </div>
+                                                </li> -->
                 <!-- Dinamico -->
                 @foreach ($comics as $comic)
                     <li>
