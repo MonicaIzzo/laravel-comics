@@ -1,3 +1,8 @@
+@php
+    $links = config('header_links');
+@endphp
+
+
 <header>
     <div class="header-top">
         <div class="content">
@@ -7,7 +12,8 @@
 
 
     </div>
-    <nav class="container">
+    <!-- MENU statico -->
+    <!-- <nav class="container">
         <img class="logo" src={{ Vite::asset('resources/img/dc-logo.png') }} alt="Logo DC">
         </div>
         <div>
@@ -22,6 +28,20 @@
                 <li><a href={{ route('fans') }} class="" alt="">FANS</a></li>
                 <li><a href={{ route('news') }} class="" alt="">NEWS</a></li>
                 <li><a href={{ route('shop') }} class="" alt="">SHOP</a></li>
+            </ul>
+        </div>
+    </nav> -->
+    <!-- MENU dinamico -->
+    <nav class="container">
+        <img class="logo" src={{ Vite::asset('resources/img/dc-logo.png') }} alt="Logo DC">
+        </div>
+        <div>
+            <ul>
+                @foreach ($links as $link)
+                    <li>
+                        <a href="{{ route($link['route']) }}">{{ $link['text'] }}</a>
+                    </li>
+                @endforeach
             </ul>
         </div>
     </nav>
