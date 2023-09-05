@@ -7,5 +7,7 @@
 
 {{-- Setto il main della pagina (che cambiera in base alla pagina) --}}
 @section('main_content')
+
     <h2>MOVIES</h2>
+
 @endsection

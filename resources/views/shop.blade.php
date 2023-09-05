@@ -7,5 +7,7 @@
 
 {{-- Setto il main della pagina (che cambiera in base alla pagina) --}}
 @section('main_content')
-    <h2>shop</h2>
+
+    <h2>SHOP</h2>
+
 @endsection
