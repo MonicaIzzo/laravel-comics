@@ -32,11 +32,26 @@ Route::get('/comics', function () {
 
 
 
+
+
+
 // Rotta per pagina SINGLE COMIC
-Route::get('/single_comic', function () {
+Route::get('/single_comic/{index}', function ($index) {
     $comics = config('comics');
-    return view('single_comic', compact('comics'));
+    $comic = $comics[$index];
+    return view('single_comic', compact('comic'));
 })->name('single_comic');
+
+
+// Controllo se l'index è valido
+if (!is_numeric($index) || $index < 0 || $index >= count($comics)) {
+    abort(404);
+}
+
+
+
+
+
 
 // Rotta per pagina MOVIES
 Route::get('/movies', function () {

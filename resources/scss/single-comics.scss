@@ -63,7 +63,15 @@
             padding-top: 6px;
             padding-bottom: 6px;
         }
-    h6 {}
+    h6 {color: $primary-color;
+        font-size: 0.8rem;
+        font-family: "Open Sans Variable", sans-serif;
+        font-weight: 700;
+        font-variation-settings: "wdth" 75, "wght" 700;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    color: #0282f9;
+text-transform: uppercase;}
 }
 
 #prince {
